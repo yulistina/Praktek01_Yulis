@@ -10,5 +10,13 @@ package praktek01_yulis;
  * @author HP 14-an017AU
  */
 public class Mahasiswa {
+    String  nama ;
+    String NPM;
+    double IPK;
     
+    void cetakinfo(){
+        System.out.println("Nama : "+nama);
+        System.out.println("NPM : "+NPM);
+        System.out.println("IPK : "+IPK);
+    }
 }
